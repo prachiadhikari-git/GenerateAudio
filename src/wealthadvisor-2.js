@@ -9,4 +9,4 @@ const elevenlabs = new ElevenLabsClient({
 });
 
 const morningText = 'umm..., pet therapy at 3 PM on 13th Street. Then K Y C update at 6 PM— [concerned] really important, so don’t skip it!'
-await createDialogue (morningText, "wealthadvisor-2.mp3");
+await createDialogue (morningText, "audio/wealthadvisor-2.mp3");

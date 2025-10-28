@@ -9,4 +9,4 @@ const elevenlabs = new ElevenLabsClient({
 });
 
 const morningText = '[smiling] Bye Pat! hmm.., So Vick, you’re going with asset liquidation to hit that house goal. [smiling] hmm.., Nice move.'
-await createDialogue (morningText, "wealthadvisor-1.mp3");
+await createDialogue (morningText, "audio/wealthadvisor-1.mp3");

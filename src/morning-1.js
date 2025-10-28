@@ -10,4 +10,4 @@ const elevenlabs = new ElevenLabsClient({
 
 
 const morningText = 'Hey Vick! Morning!'
-await createDialogue (morningText, "morning.mp3");
+await createDialogue (morningText, "morning-1.mp3");

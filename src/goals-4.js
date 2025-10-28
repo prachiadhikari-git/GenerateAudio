@@ -10,4 +10,4 @@ const elevenlabs = new ElevenLabsClient({
 
 
 const morningText = 'Let me check with your wealth advisor on his availability, hmmm...,he is available at 11am, is that ok?'
-await createDialogue (morningText, "goals4.mp3");
+await createDialogue (morningText, "goals-4.mp3");

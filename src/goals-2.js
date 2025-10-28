@@ -10,4 +10,4 @@ const elevenlabs = new ElevenLabsClient({
 
 
 const morningText = 'When do you want to discuss, today or tomorrow?'
-await createDialogue (morningText, "goals2.mp3");
+await createDialogue (morningText, "goals-2.mp3");

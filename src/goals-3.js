@@ -10,4 +10,4 @@ const elevenlabs = new ElevenLabsClient({
 
 
 const morningText = 'Is after 10am ok?'
-await createDialogue (morningText, "goals3.mp3");
+await createDialogue (morningText, "goals-3.mp3");

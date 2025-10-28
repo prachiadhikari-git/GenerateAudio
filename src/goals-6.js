@@ -8,5 +8,5 @@ const elevenlabs = new ElevenLabsClient({
     apiKey: "sk_2c17725a936248a92285ccb00ffaa957034e934fa8f4cab3", // Defaults to process.env.ELEVENLABS_API_KEY
 });
 
-const morningText = 'Cheerful smile, light tone, Vick, it is 11 am, connecting you with your Wealth Advisor Pat. Calling Pat..'
+const morningText = '[smiling] light tone, Vick, it is 11 am, connecting you with your Wealth Advisor Pat. Calling Pat..'
 await createDialogue (morningText, "goals-6.mp3");

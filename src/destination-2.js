@@ -1,5 +1,3 @@
-
-
 import { ElevenLabsClient, play } from '@elevenlabs/elevenlabs-js';
 import {createWriteStream} from 'fs';
 import {createDialogue} from './utils.js'
@@ -9,5 +7,5 @@ const elevenlabs = new ElevenLabsClient({
 });
 
 
-const morningText = '[Excited] Ok cool… Lets browse arts then'
-await createDialogue (morningText, "welcome.mp3");
+const morningText = '[smiling]Yeah..Julie is insured, shall I process for payment.'
+await createDialogue (morningText, "audio/destination-2.mp3");

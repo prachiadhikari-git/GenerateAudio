@@ -7,5 +7,5 @@ const elevenlabs = new ElevenLabsClient({
 });
 
 
-const morningText = '[smiling]Uhh... okay, i will take you to your portfolio'
-await createDialogue (morningText, "morning-2.mp3");
+const morningText = '[smiling]Uhh. okay, i will take you to your portfolio'
+await createDialogue (morningText, "audio/morning-2.mp3");

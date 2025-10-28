@@ -8,4 +8,4 @@ const elevenlabs = new ElevenLabsClient({
 
 
 const morningText = '[Worried] uhh....Yes, it was detected as this was outside spending pattern'
-await createDialogue (morningText, "portfolio-2.mp3");
+await createDialogue (morningText, "audio/portfolio-2.mp3");

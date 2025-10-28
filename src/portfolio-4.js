@@ -8,4 +8,4 @@ const elevenlabs = new ElevenLabsClient({
 
 
 const morningText = '[smiling] ok... cool, let’s go to your goals'
-await createDialogue (morningText, "portfolio-4.mp3");
+await createDialogue (morningText, "audio/portfolio-4.mp3");

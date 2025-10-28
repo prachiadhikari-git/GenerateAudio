@@ -8,4 +8,4 @@ const elevenlabs = new ElevenLabsClient({
 
 
 const morningText = '[Intelligent]Hmmmm.... The mesh is how I interact with different agents to get the information you need'
-await createDialogue (morningText, "portfolio-3.mp3");
+await createDialogue (morningText, "audio/portfolio-3.mp3");

@@ -1,5 +1,3 @@
-
-
 import {createDialogue} from './utils.js'
 
 const elevenlabs = new ElevenLabsClient({
@@ -7,5 +5,5 @@ const elevenlabs = new ElevenLabsClient({
 });
 
 
-const morningText = 'Your wealth advisor can help you here with different options if you are interested in expediting this goal!'
-await createDialogue (morningText, "goals-1.mp3");
+const morningText = 'ok.... then only KYC update is required!'
+await createDialogue (morningText, "audio-scene-3/rm-2.mp3");

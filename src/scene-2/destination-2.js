@@ -7,5 +7,5 @@ const elevenlabs = new ElevenLabsClient({
 });
 
 
-const morningText = '[smiling]Yeah..Julie is insured, shall I process for payment.'
-await createDialogue (morningText, "audio/destination-2.mp3");
+const morningText = '[smiling]Yeah..Julie is insured, shall I proceed with insurance claim?.'
+await createDialogue (morningText, "audio-scene-2/destination-2.mp3");

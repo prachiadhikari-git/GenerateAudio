@@ -7,5 +7,5 @@ const elevenlabs = new ElevenLabsClient({
 });
 
 
-const morningText = '[thinking]Uh. here are target numbers for your house goal'
+const morningText = 'Uh....., here are the updated numbers for your house goal'
 await createDialogue (morningText, "audio-scene-2/cbdc-2.mp3");

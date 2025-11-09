@@ -7,5 +7,5 @@ const elevenlabs = new ElevenLabsClient({
 });
 
 
-const morningText = '[happily smiling]You are approaching the destination, you will reach in 5 minutes…'
+const morningText = '[smiling] You are approaching the destination, you will reach in 5 minutes…'
 await createDialogue (morningText, "audio-scene-2/cbdc-3.mp3");

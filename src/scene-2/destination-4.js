@@ -7,5 +7,5 @@ const elevenlabs = new ElevenLabsClient({
 });
 
 
-const morningText = '[smiling] Okay.. insurance claim settled.'
+const morningText = ' insurance claim settled.'
 await createDialogue (morningText, "audio-scene-2/destination-4.mp3");

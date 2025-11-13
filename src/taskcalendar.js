@@ -7,5 +7,5 @@ const elevenlabs = new ElevenLabsClient({
 });
 
 
-const morningText = '[smiling]Hmm..Next you have K-Y-C update at 6 p-m..'
+const morningText = 'Next you have K-Y-C update at 6 p-m..'
 await createDialogue (morningText, "audio/taskcalendar.mp3");
